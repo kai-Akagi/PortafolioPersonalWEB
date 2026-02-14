@@ -4,6 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio - Inicio</title>
+  <style>
+    /* CSS Backgrounds */
+    body {
+      background-color: #f0f0f0; /* Color de fondo */
+      background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png'); /* Imagen de fondo */
+      background-repeat: repeat; /* Repetir imagen */
+      background-attachment: fixed; /* Fondo fijo al hacer scroll */
+    }
+
+    /* CSS Borders */
+    header, footer {
+      border: 2px solid #333; /* Borde sólido */
+      padding: 10px;
+      margin: 10px;
+    }
+
+    /* CSS Margins y Padding */
+    main {
+      margin: 20px; /* Espacio externo */
+      padding: 15px; /* Espacio interno */
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+
+    /* CSS Units */
+    h1 {
+      font-size: 2em; /* Unidad relativa */
+    }
+    p {
+      font-size: 16px; /* Unidad absoluta en px */
+    }
+
+    /* CSS Position y Z-index */
+    nav {
+      position: relative; /* Posicionamiento relativo */
+      z-index: 10; /* Prioridad de apilamiento */
+      background-color: #ddd;
+      padding: 5px;
+    }
+
+    footer {
+      position: relative;
+      z-index: 5; /* Menor prioridad que nav */
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -22,14 +67,12 @@
     <p>Soy Kai, un estudiante de Ingeniería en Software. Este es mi portafolio personal.</p>
   </main>
   <footer>
-              <section>
-                
-                Sigueme en mis redes:
-                <!-- rel es por seguridad -->
-                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com">Mi canal de Youtube(fake)</a>
-                
-                </section> 
-              <p>&copy; 2026 Kai. Todos los derechos reservados</p>
-          </footer>
+    <section>
+      Sígueme en mis redes:
+      <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com">Mi canal de Youtube (fake)</a>
+    </section> 
+    <p>&copy; 2026 Kai. Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
+
