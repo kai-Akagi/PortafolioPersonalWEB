@@ -1,0 +1,63 @@
+/* ============================
+   IMPORTACIÓN DE FUENTES
+   ============================ */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* ============================
+   VARIABLES GLOBALES
+   ============================ */
+:root {
+    /* Paleta Ubuntu */
+    --ubuntu-orange: #E95420;     /* Color principal Ubuntu */
+    --ubuntu-purple: #77216F;     /* Fondo púrpura característico */
+    --ubuntu-light-purple: #AEA79F; /* Tonos claros para contraste */
+    --ubuntu-dark-gray: #2C001E;  /* Fondo oscuro */
+    --ubuntu-light-gray: #F2F2F2; /* Fondo claro */
+    --ubuntu-accent-yellow: #FFDD00; /* Color de acento */
+
+    /* Texto y enlaces */
+    --text-primary: #FFFFFF;      /* Texto principal claro */
+    --text-secondary: #333333;    /* Texto secundario oscuro */
+    --links-normal: #E95420;      /* Enlaces en naranja Ubuntu */
+    --links-hover-dark: #FF6E40;  /* Hover en naranja más brillante */
+
+    /* Navegación */
+    --nav-background: #2C001E;    /* Fondo de barra de navegación */
+    --nav-links: #FFFFFF;         /* Texto de enlaces en nav */
+    --nav-links-hover: #FFDD00;   /* Hover en amarillo Ubuntu */
+
+    /* Botones */
+    --button-bg: #E95420;
+    --button-bg-hover: #FF6E40;
+    --button-text: #FFFFFF;
+
+    /* Footer */
+    --footer-bg: #77216F;
+    --footer-text: #FFFFFF;
+}
+
+/* ============================
+   RESET BÁSICO DE ESTILOS
+   ============================ */
+body, main, h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--ubuntu-light-gray);
+    color: var(--text-secondary);
+}
+
+/* ============================
+   ESTILOS PARA ENLACES
+   ============================ */
+a {
+    color: var(--links-normal);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--links-hover-dark);
+}
+
+
+
